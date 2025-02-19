@@ -1,0 +1,81 @@
+header {
+    background-color: #364552;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 4rem;
+    color: white;
+}
+header h4{
+    color: gainsboro;
+}
+main {
+    background-color: rgb(231, 230, 230);
+}
+main section ul {
+    font-size: 1.5rem;
+}
+.post ul li{
+    font-size: 1.5rem;
+}
+
+.post ul li::marker{
+    font-size: 3rem;
+}
+
+.post li:hover{
+    color: blueviolet;
+}
+.post {
+    float: right;
+    padding-right: 30rem;
+}
+
+.left ul{
+    list-style-type: ' ';
+    color: lightslategray;
+}
+
+.left ul li::marker{
+    font-size: 3rem;
+}
+
+.left {
+    padding: 0.1rem 18rem;
+}
+
+.left li:hover{
+    color: black;
+}
+
+footer {
+    background-color: #222;
+    padding: 2rem;
+    color: white;
+}
+
+footer section {
+    float: right;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    transition: color 0.3s ease;
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: cornflowerblue;
+}
+
+.div {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
